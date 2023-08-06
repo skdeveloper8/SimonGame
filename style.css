@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+   
+}
+body{
+    /* position:; */
+    height: 100vh;
+    /* margin: 0 auto; */
+
+}
+.game{
+   text-align: center;
+   /* position: relative; */
+   height: 100vh;
+
+ 
+}
+.box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    /* border-radius: 5%; */
+    /* border: 2px solid black; */
+    gap: 10px;
+    flex-wrap: wrap;
+    margin:0 auto;
+
+}
+.btn{
+    border: 10px solid black;
+    border-radius:10px ;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.flash{
+    background-color: aliceblue ;
+}
+.danger{
+    background-color: red;
+}
